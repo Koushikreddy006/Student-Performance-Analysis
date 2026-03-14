@@ -20,3 +20,11 @@ data.set_index('Name')[['Math','Science','English']].plot(kind='bar')
 plt.title("Student Marks Comparison")
 plt.ylabel("Marks")
 plt.show()
+# Subject average comparison
+subject_avg = data[['Math','Science','English']].mean()
+
+subject_avg.plot(kind='bar')
+
+plt.title("Average Marks by Subject")
+plt.ylabel("Average Marks")
+plt.show()
