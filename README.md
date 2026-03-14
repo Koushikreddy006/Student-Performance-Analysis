@@ -36,3 +36,11 @@ The project generates charts to show the comparison of student marks across subj
 
 The analysis shows that most students perform better in English compared to Science.  
 Teachers can focus more on improving Science understanding to increase overall academic performance.
+
+## Visualizations
+
+### Student Marks Comparison
+![Marks Chart](marks_chart.png)
+
+### Subject Average Comparison
+![Subject Average](subject_average_chart.png)
